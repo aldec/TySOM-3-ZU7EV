@@ -1,0 +1,21 @@
+{
+    "example" : "warptransform - File I/O",
+    "overview" : "warptransform",
+    "board" : [
+        "TySOM_3_ZU7",
+        "TySOM_3A_ZU19EG"
+    ],
+    "os" : [
+        "Linux"
+    ],
+    "system" : {
+        "dmclkid" : "2"
+    },
+    "accelerators" : [
+        {
+            "name" : "warpTransform",
+            "location" : "<PLATFORM>/sw/a53_linux/linux_domain/inc/xfopencv/include/imgproc/xf_warp_transform.hpp",
+            "clkid" : "2"
+        }
+    ]
+}

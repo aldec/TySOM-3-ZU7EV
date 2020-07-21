@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="v" sdx:library="l" sdx:name="n" sdx:version="0.0" sdx:schemaVersion="0.0" xmlns:sdx="http://www.xilinx.com/sdx">
+<sdx:description>unused</sdx:description>
+<sdx:systemConfigurations sdx:defaultConfiguration="config0_0">
+<sdx:configuration sdx:name="config0_0" sdx:displayName="Linux Config 0" sdx:defaultProcessorGroup="a53_0" sdx:runtimes="cpp,ocl">
+<sdx:description>config0_0 Linux OS on a53_0</sdx:description>
+<sdx:prebuilt sdx:data="prebuilt"/>
+<sdx:bootImages sdx:default="standard">
+<sdx:image sdx:name="standard" sdx:bif="config0_0/boot/linux.bif" sdx:imageData="config0_0/image" sdx:mountPath="/mnt" sdx:readme="config0_0/boot/generic.readme" />
+</sdx:bootImages>
+<sdx:processorGroup sdx:name="a53_0" sdx:displayName="a53_0" sdx:cpuInstance="psu_cortexa53_0" sdx:cpuType="cortex-a53">
+<sdx:os sdx:name="linux" sdx:displayName="Linux OS" sdx:includePaths="config0_0/inc/include:config0_0/inc/xfopencv/include" sdx:libraryPaths="config0_0/lib:config0_0/lib/libv4l:config0_0/lib/libv4l/plugins" sdx:libraryNames="v4l-mplane:drm:drm_amdgpu:drm_freedreno:drm_nouveau:drm_radeon:kms:opencv_calib3d:opencv_core:opencv_features2d:opencv_flann:opencv_highgui:opencv_imgcodecs:opencv_imgproc:opencv_ml:opencv_objdetect:opencv_photo:opencv_shape:opencv_stitching:opencv_superres:opencv_video:opencv_videoio:opencv_videostab:v4l1:v4l1:v4l2:v4l2:v4l2rds:v4l2rds:v4lconvert:v4lconvert:z" />
+</sdx:processorGroup>
+</sdx:configuration>
+</sdx:systemConfigurations>
+</sdx:platform>

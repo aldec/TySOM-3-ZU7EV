@@ -1,0 +1,9 @@
+uenvcmd=run aldec_sdboot
+bootargs=console=ttyPS0,115200 rw earlycon clk_ignore_unused root=/dev/ram0 earlyprintk uio_pdrv_genirq.of_id=xlnx,generic-uio cma=1024M cpuidle.off=1
+kernel_image=Image
+devicetree_image=devicetree.dtb
+ramdisk_image=uramdisk.image.gz
+aldec_sdboot=echo Copying Linux from SD to RAM... && fatload mmc 0:1 0xD000000 ${kernel_image} && fatload mmc 0:1 0x2000000 ${devicetree_image} && if fatload mmc 0:1 0x2A00000 ${ramdisk_image}; then booti 0xD000000 0x2A00000 0x2000000; else booti 0x6000000 - 0x2000000; fi
+
+
+
