@@ -9,13 +9,13 @@
         "Linux"
     ],
     "system" : {
-        "dmclkid" : "2"
+        "dmclkid" : "1"
     },
     "accelerators" : [
         {
             "name" : "cornerHarris",
             "location" : "<PLATFORM>/sw/a53_linux/linux_domain/inc/xfopencv/include/features/xf_harris.hpp",
-            "clkid" : "2"
+            "clkid" : "1"
         }
     ]
 }

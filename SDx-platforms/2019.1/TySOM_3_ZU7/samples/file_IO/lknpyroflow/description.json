@@ -9,13 +9,13 @@
         "Linux"
     ],
     "system" : {
-        "dmclkid" : "2"
+        "dmclkid" : "1"
     },
     "accelerators" : [
         {
             "name" : "DenseNonPyrLKOpticalFlow",
             "location" : "<PLATFORM>/sw/a53_linux/linux_domain/inc/xfopencv/include/imgproc/xf_dense_npyr_optical_flow.hpp",
-            "clkid" : "2"
+            "clkid" : "1"
         }
     ]
 }
