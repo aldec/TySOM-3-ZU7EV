@@ -79,9 +79,10 @@ Daughter Cards provided by Aldec:
 
 The hardware projects used in all platforms utilizes some IP cores which requires additional licenses for Xilinx Vivado.
 List of the IP cores and licenses required to use platforms:
-| IP core       | License          | Vendor |
-| ------------- | ---------------- | ------ |
-| HDMI-RX/TX    | EF-DI-HDMI-SITE  | Xilinx |
+| IP core       | License          | Vendor | Platforms                   |
+| ------------- | ---------------- | ------ | --------------------------- |
+| HDMI-RX/TX    | EF-DI-HDMI-SITE  | Xilinx | All                         |
+| MIPI CSI-2 RX |                  | Xilinx | with LI_IMX274MIPI_FMC_V1_1 |
 
 <a name="tysom_pynq_board_files"/>
 
