@@ -237,6 +237,8 @@ Yocto project provides all necessary functions and scripts to build a custom Lin
 
 - [Instruction how to build](https://www.aldec.com/en/downloads/private/903)
 
+- [Configuration files](https://github.com/aldec/TySOM-3-ZU7EV/tree/master/Yocto_Project)
+
 ---
 
 <a name="petalinux_os"/>
