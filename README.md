@@ -22,7 +22,7 @@ git clone <path>
    - [Vivado - board definition files](#tysom_board_def_files)
    - [PetaLinux - BSP](#tysom_petalinux_bsp)
    - [Supported OSes](#tysom_supported_os)
-     - [Ubuntu-Linaro](#ubuntu_linaro_os)
+     - [Ubuntu](#ubuntu_linaro_os)
      - [Debian-Linaro](#debian_linaro_os)
      - [Yocto Project](#yocto_project_os)
      - [Petalinux tools](#petalinux_os)
@@ -195,15 +195,21 @@ Below is a list of supported OSes and additional information.
 
 <a name="ubuntu_linaro_os"/>
 
-1. Ubuntu-Linaro
+1. Ubuntu
 
 <img width="238" height="168" src="images/ubuntulogo.png">
 
+Aldec TySOM boards are supported by Ubuntu Desktop Operating System. 
+
+- Ubuntu 18.04 support
+
+Instruction for building the Ubuntu for TySOM boards is available [here](https://github.com/aldec/OS_for_TySOM/tree/main/Ubuntu/2020.2).
+
+- Ubuntu Filesystem Version 20121124-560 support
+
 A stock version of Ubuntu Desktop Operating System with additional packages from Linaro. It supports all standard interfaces such as: USB, HDMI, Ethernet, WiFi, Audio IN/OUT.
 
-Filesystem Version: 20121124-560
-
-- [Linaro webpage](https://www.linaro.org/)
+[Linaro webpage](https://www.linaro.org/)
 
 ---
 
