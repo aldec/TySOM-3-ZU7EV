@@ -7,9 +7,7 @@
 	- [Known issues](#known_issues)
 - [Update the hardware platform in the Petalinux project](#update_hardware)
 - [Test PetaLinux with QEMU](#test_petalinux)
-- [Notes](#test_petalinux_notes)
-
-### Notes <a name="test_petalinux_notes"/>
+	- [Notes](#test_petalinux_notes)
 
 ## Provided files <a name="provided_files"/>
 
@@ -152,10 +150,13 @@ Exit QEMU session with using CTRL+A and then press X.
 ### Notes <a name="test_petalinux_notes"/>
 
 QEMU does not support PL RAM. Check if memory node in the device tree is as below:
+
+```
 memory {
 	device_type = "memory";
 	reg = <0x0 0x0 0x0 0x7ff00000 0x8 0x0 0x1 0x80000000>;
 };
+```
 
 or use system-qemu.dtb (DTB for the base project).  
 
