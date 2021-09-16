@@ -71,7 +71,7 @@ Temperature Sensor |
 SYSMON |
 Curent monitor |
 
-[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3a)
+[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc/tysom_3a_zu19eg)
 
 <a name="tysom_3a_zu19eg_fmc1_adas"/>
 
@@ -129,7 +129,7 @@ Temperature Sensor |
 SYSMON |
 Current Monitor |
 
-[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3)
+[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc/tysom_3_zu7ev)
 
 <a name="tysom_3_zu7_fmc1_fmc_adas"/>
 
@@ -197,7 +197,7 @@ XADC |
 Accelerometer |
 Temperature Sensor |
 
-[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_2)
+[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000_soc/tysom_2_7z100)
 
 <a name="tysom_2_7z100_fmc2_fmc_adas"/>
 
@@ -265,7 +265,7 @@ XADC |
 Accelerometer |
 Temperature Sensor |
 
-[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_2)
+[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000_soc/tysom_2_7z100)
 
 <a name="tysom_2_7z045_fmc2_fmc_adas"/>
 
@@ -326,7 +326,7 @@ Real Time Clock/Calendar |
 Accelerometer |
 Temperature Sensor |
 
-[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_2a)
+[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000_soc/tysom_2_7z100a)
 
 <a name="tysom_2a_7z030_fmc2_fmc_adas"/>
 
@@ -362,4 +362,4 @@ Digilent PmodTM Compatible Header |CMOS Camera Connector
 JTAG PS Header – MIPI 10-pin ARM JTAG |Touch Panel Connector
 JTAG PL Header – Xilinx JTAG Connector |LCD Connector
 
-[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_1)
+[Link to the TySOM board page](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000_soc/tysom_1_7z030)

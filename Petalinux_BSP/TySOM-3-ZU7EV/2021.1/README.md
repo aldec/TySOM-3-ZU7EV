@@ -1,4 +1,4 @@
-# Build root filesystem and Linux kernel with using Petalinux 2021.1 for [TySOM-3-ZU7EV](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3) board
+# Build root filesystem and Linux kernel with using Petalinux 2021.1 for [TySOM-3-ZU7EV](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc/tysom_3_zu7ev) board
 
 ## Table of Content
 - [Provided files](#provided_files)

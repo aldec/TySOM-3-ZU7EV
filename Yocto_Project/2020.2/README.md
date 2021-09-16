@@ -1,4 +1,4 @@
-# Yocto Project 2020.2 for [TySOM-3-ZU7EV](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3) board
+# Yocto Project 2020.2 for [TySOM-3-ZU7EV](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc/tysom_3_zu7ev) board
 
 ## Table of Content
 - [Provided files](#provided_files)
