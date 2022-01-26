@@ -33,17 +33,17 @@ $ sudo yum install Release/*-xrt.rpm
 
 Sysroot is necessary and this chapter demostrates how to download and build it.
 
-1. Download file "ZYNQMP common image" from the [Xilinx webpage](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html)
+1. Download file "ZYNQMP common image" from the [Xilinx webpage](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/2021-1.html)
 
 2. Unpack downloaded file.
 
 3. Build sysroot.
 ```
 $ cd xilinx-zynqmp-common-v2021.1
-$ ./sdk.sh
+$ ./sdk.sh -y -d .
 ```
 
-4. Sysroot should be available in **xilinx-zynqmp-common-v2021.1/ir/sysroots/aarch64-xilinx-linux/** folder.
+4. Sysroot should be available in **xilinx-zynqmp-common-v2021.1/sysroots/cortexa72-cortexa53-xilinx-linux/** folder.
 
 <a name="create_a_project_application"/>
 
