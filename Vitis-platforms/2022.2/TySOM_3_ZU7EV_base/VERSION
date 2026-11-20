@@ -1,0 +1,5 @@
+ board    : TySOM-3-ZU7EV
+ vendor   : Aldec, Inc.
+ platform : TySOM_3_ZU7EV_base
+ version  : 2022.2
+ revision : eaa670e2b98ab5f0a16fc4a369ff75867e7a1f6f

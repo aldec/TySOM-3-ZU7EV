@@ -31,7 +31,7 @@ source <petalinux_installation_path>/petalinux-2021.1/settings.sh
 2. Create a project with using the BSP.
 
 ```
-petalinux-create -t project -s <path>/TySOM-3-ZU7EV.bsp
+petalinux-create -t project -s <path>/TySOM-3-ZU7EV-v2021.1-hdmi.bsp
 ```
 
 3. Go to the project directory

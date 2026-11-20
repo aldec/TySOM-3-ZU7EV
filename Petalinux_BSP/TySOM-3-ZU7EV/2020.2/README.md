@@ -11,7 +11,7 @@
 ## Provided files
 
 This package is composed of the following files:
-- TySOM-3-ZU7EV.bsp - Petalinux BSP file
+- TySOM-3-ZU7EV-v2020.2-hdmi.bsp - Petalinux BSP file
 - TySOM-3-ZU7EV_vivado - Vivado project
 
 <a name="petalinux_instruction"/>
@@ -27,7 +27,7 @@ source <petalinux_installation_path>/petalinux-2020.2/settings.sh
 
 2. Create a project with using the BSP.
 ```
-petalinux-create -t project -s <path>/TySOM-3-ZU7EV.bsp
+petalinux-create -t project -s <path>/TySOM-3-ZU7EV-v2020.2-hdmi.bsp
 ```
 
 3. Go to the project directory

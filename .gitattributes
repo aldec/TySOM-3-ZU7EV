@@ -3,5 +3,8 @@
 *.gz filter=lfs diff=lfs merge=lfs -text
 *.xsa filter=lfs diff=lfs merge=lfs -text
 *.elf filter=lfs diff=lfs merge=lfs -text
+*.cpio.gz.u-boot filter=lfs diff=lfs merge=lfs -text
+*.BIN filter=lfs diff=lfs merge=lfs -text
+*.dtb filter=lfs diff=lfs merge=lfs -text
 Vitis-platforms/2021.1/common/Image filter=lfs diff=lfs merge=lfs -text
 Vitis-platforms/2021.1/common/rootfs.cpio.gz.u-boot filter=lfs diff=lfs merge=lfs -text

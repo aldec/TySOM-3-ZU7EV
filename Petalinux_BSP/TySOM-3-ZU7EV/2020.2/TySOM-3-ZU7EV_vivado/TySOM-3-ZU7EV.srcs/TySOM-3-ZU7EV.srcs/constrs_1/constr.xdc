@@ -1,14 +1,15 @@
 ####################################################################################################
 ####################################### TySOM-3 constraints ########################################
 ####################################################################################################
+# General project settings
+set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design]
 
-#ETH2 MDIO
+# ETH2 MDIO
 set_property  -dict {PACKAGE_PIN J9  IOSTANDARD LVCMOS33} [get_ports ETH2_MDIO_mdc]
 set_property  -dict {PACKAGE_PIN L10 IOSTANDARD LVCMOS33} [get_ports ETH2_MDIO_mdio_io]
 
 #  WL1837MOD WLAN_EN#
 set_property  -dict {PACKAGE_PIN H7 IOSTANDARD LVCMOS33} [get_ports {WLAN_EN[0]}]
-
 
 #  WL1837MOD BT_EN#
 set_property  -dict {PACKAGE_PIN G7 IOSTANDARD LVCMOS33} [get_ports {BT_EN[0]}]
